@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11.9-blue.svg)](https://python.org)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue.svg)](https://postgresql.org)
 [![Docker](https://img.shields.io/badge/Docker-Compose-blue.svg)](https://docker.com)
-[![Metabase](https://img.shields.io/badge/Metabase-Latest-green.svg)](https://metabase.com)
+[![Metabase](https://img.shields.io/badge/Metabase-Latest-green.svg)](https://metabase.com) 
 
 ## 🎯 Project Overview
 
