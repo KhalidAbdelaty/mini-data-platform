@@ -171,4 +171,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-**Built with ❤️ by Khalid Abdelaty** | AWS Community Builder | Data Engineering Excellence
+**Built with ❤️ by Khalid Abdelaty**
