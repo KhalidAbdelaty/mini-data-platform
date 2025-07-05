@@ -1,4 +1,4 @@
-﻿# 🚀 Mini Resilient Data Platform
+# 🚀 Mini Resilient Data Platform
 
 > A production-ready data engineering pipeline demonstrating end-to-end data flow, transformation, and business intelligence capabilities.
 
@@ -60,7 +60,7 @@ This project demonstrates core **Data Engineering** and **DataOps** principles t
 
 ### Installation
 
-\\\ash
+```bash
 # Clone repository
 git clone https://github.com/KhalidAbdelaty/mini-data-platform.git
 cd mini-data-platform
@@ -78,11 +78,11 @@ docker-compose up -d
 
 # Run initial data load
 python main.py
-\\\
+```
 
 ### Access Points
-- **Database**: \localhost:5432\ (admin/password123)
-- **Metabase**: \http://localhost:3000\
+- **Database**: \`localhost:5432\` (admin/password123)
+- **Metabase**: \`http://localhost:3000\`
 
 ## 📈 Dashboard Results
 
@@ -95,42 +95,42 @@ python main.py
 ## 🔧 Usage
 
 ### One-time Execution
-\\\ash
+```bash
 python main.py
-\\\
+```
 
 ### Continuous Pipeline
-\\\ash
+```bash
 python main.py --continuous
-\\\
+```
 
 ### Reset Environment
-\\\ash
+```bash
 docker-compose down
 docker-compose up -d
 python main.py
-\\\
+```
 
 ## 📋 Data Schema
 
-### Raw Events (\events\)
-\\\sql
+### Raw Events (`events`)
+```sql
 - id: Serial primary key
 - user_id: User identifier  
 - event_type: Action type (page_view, purchase, etc.)
 - timestamp: Event occurrence time
 - product_id: Product identifier
 - amount: Transaction amount (for purchases)
-\\\
+```
 
-### Business Metrics (\daily_metrics\)
-\\\sql
+### Business Metrics (`daily_metrics`)
+```sql
 - date: Aggregation date
 - total_events: Daily event count
 - unique_users: Daily active users
 - total_revenue: Daily revenue sum
 - avg_order_value: Average purchase amount
-\\\
+```
 
 ## 🚀 Key Features
 
