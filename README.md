@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11.9-blue.svg)](https://python.org)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue.svg)](https://postgresql.org)
 [![Docker](https://img.shields.io/badge/Docker-Compose-blue.svg)](https://docker.com)
-[![Metabase](https://img.shields.io/badge/Metabase-Latest-green.svg)](https://metabase.com) 
+[![Metabase](https://img.shields.io/badge/Metabase-Latest-green.svg)](https://metabase.com)
 
 ## 🎯 Project Overview
 
@@ -33,12 +33,23 @@ This project demonstrates core **Data Engineering** and **DataOps** principles t
 | **Visualization** | Metabase | Executive dashboards, real-time monitoring |
 | **Infrastructure** | Docker Compose | Service orchestration and management |
 
-## 📊 Business Metrics Tracked
+## 📊 Business Results
 
-- **Revenue Analytics**: Daily revenue trends, average order values
-- **User Behavior**: Active users, conversion rates, engagement patterns  
-- **Product Performance**: Views, purchases, revenue by product
-- **Data Quality**: Pipeline health, data freshness, error rates
+![Executive Summary Dashboard](dashboard_screenshot.png)
+
+### Key Performance Indicators
+- 📈 **$36.1K** total revenue generated and tracked
+- 🎯 **18.92%** conversion rate achieved  
+- 👥 **1,119** unique users engaged
+- 💰 **$264.37** average order value
+- 🛒 **136** total orders processed
+- 📊 **1,200** total events captured
+
+### Event Distribution Analysis
+- **59.92%** Page Views - Strong user engagement
+- **22.50%** Add to Cart - Healthy funnel progression  
+- **11.33%** Purchases - Excellent conversion rate
+- **6.25%** Remove from Cart - Normal user behavior patterns
 
 ## 🛠️ Technology Stack
 
@@ -81,16 +92,8 @@ python main.py
 ```
 
 ### Access Points
-- **Database**: \`localhost:5432\` (admin/password123)
-- **Metabase**: \`http://localhost:3000\`
-
-## 📈 Dashboard Results
-
-### Executive Summary Dashboard
-- 📊 **30.2K** total revenue generated
-- 🎯 **19.14%** conversion rate achieved  
-- 👥 **949** unique users tracked
-- 💰 **261** average order value
+- **Database**: `localhost:5432` (admin/password123)
+- **Metabase**: `http://localhost:3000`
 
 ## 🔧 Usage
 
