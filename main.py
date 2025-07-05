@@ -264,7 +264,7 @@ def check_data_quality():
 
 def main():
     """Main function to run the data platform"""
-    print("🚀 Starting Mini Resilient Data Platform")
+    print("Starting Mini Resilient Data Platform")
     print("=" * 50)
     
     try:
@@ -280,9 +280,9 @@ def main():
         # Data quality check
         check_data_quality()
         
-        print("\n✅ Initial setup complete!")
-        print("📊 Database: http://localhost:5432")
-        print("📈 Metabase: http://localhost:3000")
+        print("\nInitial setup complete!")
+        print("Database: http://localhost:5432")
+        print("Metabase: http://localhost:3000")
         print("\nTo run continuous pipeline:")
         print("python main.py --continuous")
         
